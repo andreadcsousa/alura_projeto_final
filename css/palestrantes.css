@@ -1,0 +1,50 @@
+.palestrantes__container {
+    background-color: #F17E50;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.palestrantes__title {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.palestrantes__subtitle {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.palestrantes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.palestrante__card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+}
+
+.palestrante__image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.palestrante__description {
+    margin-bottom: 10px;
+}
+
+.palestrante__description:nth-child(3) {
+    font-weight: bold;
+}

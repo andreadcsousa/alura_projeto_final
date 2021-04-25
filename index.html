@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/palestrantes.css">
+        <link rel="stylesheet" href="css/form.css">
+        <title>Aluraconf</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav>
+                <ul class="menu__lista">
+                    <li class="menu__item"><a href="#" class="menu__link">Sobre</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Palestrantes</a></li>
+                </ul>
+            </nav>
+            <div class="jumbotron">
+                <section class="cabecalho__container">
+                    <h1 class="chamada__title">Aluraconf</h1>
+                    <p class="chamada__subtitle">30Maio|Rio</p>
+                </section>
+                <section class="container">
+                    <a href="#" class="chamada__button">Inscreva-se</a>
+                </section>
+            </div>
+        </header>
+        <main class="conteudo__container">
+            <section id="secao-about" class="about__container">
+                <h2 class="about__title">Muito conteúdo: do frontend ao backend</h2>
+                <h3 class="about__subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+                <p class="about__description">Com a AluraConf abordaremos o que já de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+                <p class="about__description">É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.</p>
+            </section>
+            <section id="secao-palestrantes" class="palestrantes__container">
+                <h2 class="palestrantes__title">Palestrantes</h2>
+                <h3 class="palestrantes__subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+                <div class="palestrantes">
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                    <figure class="palestrante__card">
+                        <img src="img/palestrantes/placeholder.jpeg" alt="" class="palestrante__image">
+                        <figcaption class="palestrante__description">Flávio Almeida</figcaption>
+                        <p class="palestrante__description">Desenvolvedor e instrutor da Caelum</p>
+                        <p class="palestrante__description">To be or not to be MEAN</p>
+                    </figure>
+                </div>
+            </section>
+            <section id="secao-formulario" class="formulario_container">
+                <h2 class="formulario__title">Seus dados</h2>
+                <form action="#" class="formulario__flex">
+                    <label for="nome" class="formulario__text">Nome</label>
+                    <input id="nome" type="text" class="formulario__input">
+                    <label for="email" class="formulario__text">E-mail</label>
+                    <input id="email" type="email" class="formulario__input">
+                    <button class="formulario__button">Realizar inscrição</button>
+                </form>
+            </section>
+        </main>
+        <script src="js/jquery.js"></script>
+        <script src="js/index.js"></script>
+    </body>
 </html>
