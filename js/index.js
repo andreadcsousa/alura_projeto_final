@@ -11,6 +11,6 @@ function ativaScrollSuave(selector) {
     });
 }
 
-ativaScrollSuave('a[href*=secao-about]');
-ativaScrollSuave('a[href*=secao-palestrantes]');
-ativaScrollSuave('a[href*=secao-formulario]');
+ativaScrollSuave('a[href*=panel-about]');
+ativaScrollSuave('a[href*=panel-speakers]');
+ativaScrollSuave('a[href*=panel-form]');
