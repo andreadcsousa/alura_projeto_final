@@ -1,78 +1,70 @@
-.cabecalho {
-    background: url('../img/destaque.jpeg') no-repeat;
+.header {
+
+    background: url(../img/destaque.jpeg) no-repeat;
     background-size: cover;
-    font-weight: bold;
-    margin: 0 auto;
-    padding: 32px 0;
+    padding-top: 32px;
+}
+
+.header .main-menu {
+
     text-align: center;
-    text-transform: uppercase;
-    width: 100%;
 }
 
-.menu__lista {
-    display: flex;
-    justify-content: center;
+.header .main-menu .menu-item {
+
+    display: inline-block;
+    margin: 0 2px 32px 0;
 }
 
-.menu__item {
-    font-size: 1rem;
-    margin: 10px 5px;
-}
+.header .main-menu .menu-item a {
 
-.menu__link {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-    color: #FFFFFF;
+    color: white;
     padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
     text-decoration: none;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s;
 }
 
-.menu__link:hover {
-    background-color: #52ADAF;
+.header .main-menu .menu-item a:hover {
+    background-color: #48A3A6;
 }
 
-.jumbotron {
-    padding: 0 0 32px 0;
+.header .jumbotron {
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
 }
 
-.cabecalho__container {
-    margin: 0 auto;
-    padding: 20px;
+.header .panel-main {
+
+    color: white;
+    text-shadow: 4px 4px 10px black;
 }
 
-.chamada__title {
-    color: #FFFFFF;
+.header .jumbotron .title {
+
     font-size: 3em;
-    padding-bottom: 16px;
-    text-shadow: 4px 4px 10px black;
 }
 
-.chamada__subtitle {
-    color: greenyellow;
+.header .jumbotron .subtitle {
+    
     font-size: 2.6em;
-    padding-bottom: 40px;
-    text-shadow: 4px 4px 10px black;
+    color: #64FF64;
+    margin-top: 8px;
 }
 
-.chamada__button {
-    background-color: #52ADAF;
-    border-radius: 8px;
-    box-shadow: 1px 1px 5px black;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding: 20px 40px;
-    text-decoration: none;
-    transition: background-color 0.1s ease-in-out;
+.header .jumbotron .panel-subscribe {
+
+    margin-top: 28px;
 }
 
-.chamada__button:hover {
-    background-color: #008080;
-    color: #FFFFFF;
-}
+@media(min-width: 650px) {
 
-@media (min-width: 668px) {
-    .cabecalho {
+    .header .jumbotron {
+
         font-size: 28px;
     }
+            
 }
