@@ -1,36 +1,48 @@
 .container {
     
-    width: 96%;
     margin: 0 auto;
+    padding: 20px 0;
+    width: 96%;
 }
 
-.field {
+.formulario {
+
     margin-bottom: 16px;
 }
 
-.field label {
+.formulario label {
+
     display: block;
     font-size: 20px;
-    margin-bottom: 10px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.field .field-input {
-    display: block;
-    width: 100%;
-    font-size: 20px;
-    padding: 5px;
+.formulario .formulario-input {
+
     border-radius: 5px;
     box-shadow: 1px 1px 10px #48A2A6; 
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
 }
 
-.button {
+.botao {
     
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 25px 50px;
     background-color: #48A2A6;
     border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 18px;
+    padding: 25px 50px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.botao:hover {
+
+    background-color: #1e6d70;
+
 }

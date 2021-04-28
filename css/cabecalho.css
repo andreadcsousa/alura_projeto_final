@@ -1,68 +1,70 @@
-.header {
+.cabecalho {
 
     background: url(../img/destaque.jpeg) no-repeat;
     background-size: cover;
     padding-top: 32px;
 }
 
-.header .main-menu {
+.cabecalho .cabecalho-menu {
 
     text-align: center;
 }
 
-.header .main-menu .menu-item {
+.cabecalho .cabecalho-menu .menu-item {
 
     display: inline-block;
     margin: 0 2px 32px 0;
 }
 
-.header .main-menu .menu-item a {
+.cabecalho .cabecalho-menu .menu-item a {
 
-    color: white;
-    padding: 16px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    text-transform: uppercase;
+    color: white;
+    padding: 16px;
     text-decoration: none;
+    text-transform: uppercase;
     transition: background-color 0.5s;
 }
 
-.header .main-menu .menu-item a:hover {
+.cabecalho .cabecalho-menu .menu-item a:hover {
+
     background-color: #48A3A6;
 }
 
-.header .jumbotron {
-    text-align: center;
+.cabecalho .jumbotron {
+
     padding: 0 0 44px 0;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.header .panel-main {
+.cabecalho .cabecalho-principal {
 
     color: white;
     text-shadow: 4px 4px 10px black;
 }
 
-.header .jumbotron .title {
+.cabecalho .jumbotron .cabecalho-titulo {
 
     font-size: 3em;
 }
 
-.header .jumbotron .subtitle {
+.cabecalho .jumbotron .cabecalho-subtitulo {
     
+    color: #adff2f;
     font-size: 2.6em;
-    color: #64FF64;
     margin-top: 8px;
 }
 
-.header .jumbotron .panel-subscribe {
+.cabecalho .jumbotron .cabecalho-inscrever {
 
     margin-top: 28px;
 }
 
 @media(min-width: 650px) {
 
-    .header .jumbotron {
+    .cabecalho .jumbotron {
 
         font-size: 28px;
     }

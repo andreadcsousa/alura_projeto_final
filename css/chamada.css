@@ -1,21 +1,22 @@
-.panel-about {
+.secao-chamada {
+
     margin-top: 20px;
     text-align: center;
 } 
 
-.panel-about .title {
+.secao-chamada .chamada-titulo {
 
     font-size: 40px;
     margin-bottom: 16px;
 }
 
-.panel-about .subtitle {
+.secao-chamada .chamada-subtitulo {
     
     font-size: 24px;
     margin-bottom: 16px;
 }
 
-.panel-about .about-description {
+.secao-chamada .chamada-descricao {
 
     font-size: 18px;
     line-height: 35px;
